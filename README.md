@@ -1,4 +1,4 @@
-# React + Vite
+# Check deployed on Netlify: https://test-quizz-application.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
