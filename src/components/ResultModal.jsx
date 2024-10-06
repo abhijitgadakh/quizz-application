@@ -1,7 +1,11 @@
-import React from "react";
+import { useEffect } from "react";
 
 const ResultModal = () => {
-  return <div>LeaderBoard</div>;
+  return (
+    <div className="modal">
+      <h2>Quiz Completed</h2>
+    </div>
+  );
 };
 
 export default ResultModal;

@@ -19,7 +19,12 @@ const SetupQuiz = () => {
 
   return (
     <div className="setup-container">
-      <button onClick={() => navigate("/leaderboard")}>Leader Board</button>
+      <button
+        className="leaderboard-btn"
+        onClick={() => navigate("/leaderboard")}
+      >
+        Leader Board
+      </button>
       <h1>Quiz SetUp</h1>
 
       {/* 1st Input Name  */}

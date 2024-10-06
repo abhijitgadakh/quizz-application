@@ -1,3 +1,4 @@
+/* General Styling */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -9,11 +10,12 @@ body {
   height: 100vh;
 }
 
+/* SetupQuiz Component */
 .setup-container {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 8pc rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   width: 100%;
 }
@@ -38,6 +40,7 @@ label select {
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 16px;
   background-color: #f9f9f9;
 }
 
@@ -54,4 +57,91 @@ button {
 
 button:disabled {
   background-color: #ccc;
+}
+
+button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+button.leaderboard-btn {
+  background-color: #007bff;
+  margin-top: 10px;
+}
+
+button.leaderboard-btn:hover {
+  background-color: #0069d9;
+}
+
+.quiz-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button.options {
+  background-color: #fff;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #fff;
+  /* align-items: center; */
+}
+button.options:hover:not(:disabled) {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0069d9;
+}
+
+.time-left {
+  font-size: 16px;
+  color: #ff6b6b;
+  margin: 10px 0;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  width: 45%;
+}
+
+button.submit-btn {
+  background-color: #28a745;
+}
+
+button.submit-btn:hover {
+  background-color: #218838;
 }
