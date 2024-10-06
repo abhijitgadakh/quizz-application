@@ -18,7 +18,7 @@ const SetupQuiz = () => {
   };
 
   return (
-    <div>
+    <div className="setup-container">
       <button onClick={() => navigate("/leaderboard")}>Leader Board</button>
       <h1>Quiz SetUp</h1>
 
